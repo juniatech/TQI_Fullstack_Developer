@@ -1,0 +1,51 @@
+body {
+  align-items: center;
+  max-width: 500px;
+  font-family: sans-serif;
+  margin: auto;
+}
+
+a {
+  text-decoration: double;
+}
+
+.img_perfil {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+
+.button {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  list-style-type: none;
+  padding: auto;
+}
+
+.contact_list{
+  text-align: justify;
+}
+
+.contact_list li a {
+  color: white;
+  text-align: justify;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #09485d;
+  color: white;
+}
+
+.text_content {
+  text-align: justify;
+}
