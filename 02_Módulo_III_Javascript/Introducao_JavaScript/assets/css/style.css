@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titulo {
+    color: rgb(232, 188, 229);
+    text-decoration-style: solid;
+}
+
+.header-wrapper {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(-45deg, #000000, #8911a8, #4311a8);
+    background-size: 400% 400%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    animation: backgroundTransition 10s ease-in-out infinite;
+}
+
+.sub_titulo {
+    color: azure;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(218, 212, 230);
+    background-color: rgb(162, 19, 153);
+    color: rgb(215, 204, 223);
+    font-size: 16pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+#counter {
+    display: flex;
+}
+
+#currentNumber {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 16pt;
+    color: azure;
+}
+
+@keyframes backgroundTransition {
+    0% {
+      background-position: 0% 80%;
+    }
+    50% {
+      background-position: 80% 100%;
+    }
+    100% {
+      background-position: 0% 90%;
+    }
+  }
