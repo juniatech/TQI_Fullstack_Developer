@@ -1,0 +1,1 @@
+alert('tudo certo por aqui jovem!');
