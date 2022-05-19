@@ -1,7 +1,8 @@
 # Projeto - Jogo da Memória
 ## Tema escolhido: Breaking Bad 
 
-![image](https://user-images.githubusercontent.com/95503135/169347841-db992d69-78da-4905-b49d-951ecc4910b3.png)
+![image](https://user-images.githubusercontent.com/95503135/169352233-e7460282-15c8-4eec-a460-facc277c3860.png)
+
 
 
 ## Descrição:
